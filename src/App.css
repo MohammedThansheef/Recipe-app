@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.headerMenu a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 1.2px ;
+}
+.headerMenu a:hover{
+  color: rgb(204, 148, 7);
+}
+
+.App h1{
+  text-align: center;
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 15%;
+  border: 0;
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding-right: 10px 20px;
+ color: white;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
